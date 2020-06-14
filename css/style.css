@@ -1,0 +1,386 @@
+body {
+    margin: 0%;
+    font-family: "Trebuchet MS", Verdana;
+    background-color: #D8D8D8;
+}
+
+#header {
+    width: 100%;
+    padding-left: 0%;
+    height: 14em;
+    border-width: 100%;
+    background-image: url('../images/bg-header.jpg');
+    background-size: cover;
+}
+
+#div_date_heure {
+    float: right;
+    width: 15.5em;
+    margin-top: 12em;
+    margin-right: 2em;
+}
+
+#div_date {
+    float: left;
+    color: #98d2f4;
+}
+
+#div_horloge {
+    color: #ffffff;
+    float: right;
+}
+
+.body_site {
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 53%;
+    background-color: #ffffff;
+    border-width: 100%;
+    border-color: #000000;
+    border-top-width: 0.1em;
+    border-top-style: solid;
+    border-bottom-width: 0.1em;
+    border-bottom-style: solid;
+}
+
+.body_espace {
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 70%;
+    background-color: #ffffff;
+    border-width: 100%;
+    border-color: #000000;
+    border-top-width: 0.1em;
+    border-top-style: solid;
+    border-bottom-width: 0.1em;
+    border-bottom-style: solid;
+}
+
+.body_docs {
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 4%;
+    height: 60%;
+    background-color: #ffffff;
+    border-width: 100%;
+    border-color: #000000;
+    border-top-width: 0.1em;
+    border-top-style: solid;
+    border-bottom-width: 0.1em;
+    border-bottom-style: solid;
+}
+
+.body_regis {
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 53%;
+    background-color: #ffffff;
+    border-width: 100%;
+    border-color: #000000;
+    border-top-width: 0.1em;
+    border-top-style: solid;
+    border-bottom-width: 0.1em;
+    border-bottom-style: solid;
+}
+
+.body_content {
+    float: left;
+    border-width: 100%;
+    border-color: #000000;
+    border-top-width: 0.1em;
+    border-top-style: solid;
+    width: 50%;
+}
+
+.body_aide {
+    float: left;
+    border-width: 100%;
+    border-color: #000000;
+    border-top-width: 0.1em;
+    border-top-style: solid;
+    width: 50%;
+}
+
+#photo_aide {
+    float: right;
+    background-image: url('../images/informatique2.jpg');
+    background-size: cover;
+    width: 48%;
+    height: 70%;
+    border-color: #000000;
+    border-width: 0.1em;
+    border-style: solid;
+}
+
+#photo_accueil {
+    float: right;
+    background-image: url('../images/modern-server-room.png');
+    background-size: cover;
+    width: 48%;
+    height: 70%;
+    border-color: #000000;
+    border-width: 0.1em;
+    border-style: solid;
+}
+
+.news {
+    float: left;
+    width: 48%;
+    height: 40%;
+    border-color: #000000;
+    border-width: 0.1em;
+    border-style: solid;
+    background-size: cover;
+}
+
+#footer {
+    position: fixed;
+    padding-right: 10%;
+    text-align: right;
+    bottom: 0;
+    left: 0;
+    height: 1em;
+    width: 100%;
+    color: #ffffff;
+    border-width: 100%;
+    background-color: #000000;
+    border-color: #ffffff;
+    border-top-width: 0.1em;
+    border-top-style: solid;
+    font-size: 0.75em;
+}
+
+#titre_site {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Arial", "Verdana";
+    font-size: 2.5em;
+    position: absolute;
+    width: 150px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#titre_accueil {
+    text-align: center;
+    color: #000000;
+    font-family: "Arial", "Verdana";
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.titre_connex_regis {
+    margin-top: 2%;
+    margin-right: 0%;
+    width: 32%;
+    color: #000000;
+    font-family: "Trebuchet MS", "Verdana";
+    font-size: 2em;
+}
+
+.titre_section {
+    margin-left: 0%;
+    margin-top: 2%;
+    font-size: 2em;
+    color: #000000;
+    font-family: "Trebuchet MS", "Verdana";
+}
+
+.titre_page {
+    margin-left: 3%;
+    margin-top: 2%;
+    font-size: 1.5em;
+    color: #000000;
+    font-family: "Trebuchet MS", "Verdana";
+}
+
+#bande_menu {
+    width: auto;
+    height: 2.2em;
+    border-width: 100%;
+    background-size: cover;
+}
+
+#bande_connexion {
+    width: auto;
+    float: right;
+    margin-right: 5em;
+    padding-top: 1em;
+    margin-left: 5em;
+    height: 32px;
+    display: inline;
+}
+
+.form_connexion {
+    height: 32px;
+    width: 466px;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: #222222;
+    background: -moz-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: -webkit-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: -o-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: -ms-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: linear-gradient(to top, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+}
+
+.item_connexion {
+    margin-top: 6px;
+}
+
+#welcome_user,
+#welcome_user:hover {
+    padding-top: 8px;
+    background: #222222;
+    background: -moz-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: -webkit-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: -o-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: -ms-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: linear-gradient(to top, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+}
+
+#menu {
+    width: auto;
+    float: left;
+    padding-top: 0.4em;
+    margin-left: 5em;
+    position: absolute;
+    height: auto;
+    display: inline;
+}
+
+#regis_form {
+    width: 40%;
+    height: 50%;
+    float: left;
+    padding-left: 2%;
+    border-width: 100%;
+    border-color: #000000;
+    border-top-width: 0.1em;
+    border-top-style: solid;
+}
+
+#photo_regis {
+    float: right;
+    background-image: url('../images/Informatique-4.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 60%;
+    border-color: #000000;
+    border-width: 0.1em;
+    border-style: solid;
+}
+
+#script_register {
+    margin-top: 7%;
+    color: #000000;
+}
+
+#adresse {
+    margin-right: 0%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    float: left;
+    color: #000000;
+    width: 40%;
+    border-color: #000000;
+    border-top-width: 0.1em;
+    border-top-style: solid;
+}
+
+#carte {
+    float: right;
+    width: 43%;
+    border-width: auto;
+    border-color: #000000;
+    border-width: 0.1em;
+    border-style: solid;
+}
+
+.champs {
+    margin-top: 1em;
+    margin-right: 1.5em;
+}
+
+input select option {
+    height: 1.5em;
+}
+
+#regis_submit {
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+#b_retour_form {
+    margin-top: 5%;
+}
+
+#update_profil {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1.5%;
+    float: left;
+    width: 45%;
+    border-color: #000000;
+    border-width: 0.1em;
+    border-top-style: solid;
+}
+
+#profil {
+    padding-top: 1%;
+    padding: 2%;
+    float: right;
+    width: 43%;
+    border-width: auto;
+    border-color: #000000;
+    border-width: 0.1em;
+    border-style: solid;
+}
+
+#newPassword {
+    margin-top: 0%;
+}
+
+#photo_espace {
+    float: right;
+    background-image: url('../images/Security.jpg');
+    background-size: cover;
+    width: 75%;
+    height: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-color: #000000;
+    border-width: 0.1em;
+    border-style: solid;
+}
+
+.validDeleteAccount {
+    height: 1.5em;
+    width: 3em;
+}
+
+#deleteAccount {
+    float: right;
+    margin-top: 3%;
+    margin-right: 10%;
+}
